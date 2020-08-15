@@ -1,0 +1,346 @@
+body{
+	overflow: hidden;
+}
+.middle{
+	display: block;
+	margin: auto;
+	z-index: 2;
+	height: 200px;
+	width: 20em;
+	border: solid 5px #4C0547;
+	background: #f1aacd;
+	
+  background-image: linear-gradient(45deg, transparent 20%, #BF4286 25%, transparent 25%), 
+                    linear-gradient(-45deg, transparent 20%, #E68EC1 25%, transparent 25%),
+                    radial-gradient(#E68EC1 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+}
+
+.middle-stick{
+	height: 115px;
+	border: solid 5px #4C0547;
+	margin-top: -330px;
+	margin-left: 115px;
+	background: #f1aacd;
+	width: 80px;
+}
+.window{
+	height: 45px;
+	border: solid 5px #4C0547;
+	width: 30px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	background: #D6668A;
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.up-arrow {
+	border-color: #BF4286 transparent;
+	outline: magenta;
+	border-style: solid;
+	border-width: 0px 60px 120px 60px;
+	margin-top: -120px !important;
+	margin-left: -20px;
+	height: 0px;
+	width: 0px;
+}
+
+.gate{
+	height: 135px;
+	border-left: solid 5px #4C0547;
+	border-right: solid 5px #4C0547;
+	border-top: solid 5px #4C0547;
+	width: 95px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	background: #D6668A;
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+}
+span{
+	width: 5px;
+	height: 135px;
+	background: #4C0547;
+	display: block;
+	margin: auto;
+}
+	.box{
+		background: #BF4286;
+		display: inline-block;
+    border: solid 5px #4C0547;
+		margin-top: 310px;
+		width: 300px;
+	}
+
+.one{
+	height: 20px;
+	width: 2em;
+	margin-left: 40%;
+	z-index: -1;
+	margin-bottom: -9px;
+}
+.two{
+	height: 20px;
+	width: 2em;
+	
+	margin-left: 19px;
+	margin-bottom: -9px;
+}
+
+
+.three{
+	height: 20px;
+	width: 2em;
+	
+	margin-left: 17px;
+	margin-bottom: -9px;
+}
+.four{
+	height: 20px;
+	width: 2em;
+	
+	margin-left: 17px;
+	margin-bottom: -9px;
+}
+.five{
+	height: 20px;
+	width: 2em;
+	
+	margin-left: 17px;
+	margin-bottom: -9px;
+}
+
+.left-stick{
+	height: 315px;
+	border: solid 5px #4C0547;
+	background: #f1aacd;
+	width: 80px;
+	margin-left: -80px;
+	margin-top: -120px;
+}
+
+.right-stick{
+	height: 315px;
+	border: solid 5px #4C0547;
+	background: #f1aacd;
+	width: 80px;
+	margin-left: 20em;
+	margin-top: -320px;
+}
+
+.lego-top{
+	height: 20px;
+	margin-left: -15px;
+	width: 100px;
+	border: solid 5px #4C0547;
+	border-right-width: 1px;
+	border-top: none;
+	background: #BF4286;
+	margin-top: -10px;
+}
+
+.logo{
+		background: #BF4286;
+	  z-index: 2;
+		display: inline-block;
+    border-top: solid 5px #4C0547;
+	  border-left: solid 5px #4C0547;
+	  border-right: solid 5px #4C0547;
+}
+.ones{
+	width: 20px;
+	margin-left: -5px;
+	height: 20px;
+	margin-top: -20px;
+	
+}
+.twos{
+	width: 20px;
+	margin-left: 3.5px;
+	height: 20px;
+	margin-top: -20px;
+	
+}
+.threes{
+	width: 20px;
+	margin-left: 3.5px;
+	height: 20px;
+	margin-top: -20px;
+	
+}
+
+.flag-stick{
+	height: 65px;
+	margin-top:-65px;
+	margin-left: 35px;
+	width:1px;
+	border-left: solid 5px #4C0547;
+
+}
+.up-arrow-two {
+	border-color: #71bbbc transparent;
+	border-style: solid;
+	border-width: 0px 15px 35px 15px;
+	transform: rotate(90deg);
+	height: 0px;
+	margin-left: 2px;
+	width: 0px;
+}
+
+
+
+@media(max-width: 1300px){
+	.box{
+		background: transparent;
+		border: none;
+	}
+}
+
+
+
+.bg{
+	  overflow:hidden;
+		background:#b4ddf0;
+		position: absolute;
+		top:0;
+	  z-index: -1;
+		left:0;
+		right:0;
+		bottom:0;
+}
+.mountain, .mountain-two, .mountain-three {
+    position: absolute;
+    bottom: 0;
+    border-left: 450px solid transparent;
+    border-right: 450px solid transparent;
+    border-bottom: 480px solid #74CEAF;
+    z-index: 1;
+}
+.mountain-two { 
+    left: -210px;
+    bottom: -20px;
+    opacity: .8;
+	border-bottom-color: #4DC95B;
+    z-index: 0;
+}
+.mountain-three {
+    left: -310px;
+	  border-bottom-color: #1E5011;
+    bottom:-10px;
+    opacity: .9;
+    z-index: 0;
+}
+
+.mountain-four, .mountain-five, .mountain-six {
+    position: absolute;
+    bottom: 0;
+    border-left: 450px solid transparent;
+    border-right: 450px solid transparent;
+    border-bottom: 480px solid #B0E099;
+    z-index: 1;
+}
+.mountain-five { 
+    right: -20px;
+    bottom: -20px;
+	border-bottom-color: #36BC8F;
+    opacity: .8;
+    z-index: 0;
+}
+
+.mountain-four { 
+    right: 150px;
+    bottom: -20px;
+	border-bottom-color: #cdf4b7;
+    opacity: .9;
+    z-index: 0;
+}
+.mountain-six {
+    right: -210px;
+    bottom:-10px;
+	border-bottom-color: #6CAC4B;
+    opacity: .9;
+    z-index: 0;
+}
+
+.mountain-top {
+    position: absolute;
+    right: -65px;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 77px solid white;
+    z-index: 2;
+}
+.mountain-cap-1, .mountain-cap-2, .mountain-cap-3 {
+    position: absolute;
+    top: 70px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid white;
+}
+.mountain-cap-1 { left: -55px; }
+.mountain-cap-2 { left: -25px; }
+.mountain-cap-3 { left: 5px; }
+
+
+.ground{
+	height: 220px;
+	width: 110%;
+	background: linear-gradient(135deg, #22631c 0%,#22631c 54.5%,#548c3f 40%,#548c3f 100%);
+	z-index: -1;
+	margin-left: -10px;
+	margin-bottom: -30px;
+}
+.rock{
+	height: 50px;
+	width: 70px;
+	background: silver;
+	background: repeating-radial-gradient(ellipse,#ebe9e9,#ebe9e9 1px,#d4d1d1 1px,#d4d1d1 43px);
+background-size:881px 69px;
+	display: block;
+	margin: auto;
+	border: 5px solid grey;
+	float: right;
+	margin-right: 100px;
+	margin-top: -170px;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 30%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.small-rock{
+	height: 20px;
+	width: 40px;
+	border: 5px solid grey;
+	background: silver;
+	background: repeating-radial-gradient(ellipse,#ebe9e9,#ebe9e9 1px,#d4d1d1 1px,#d4d1d1 43px);
+background-size:881px 69px;
+	display: block;
+	margin: auto;
+	float: right;
+	margin-right: 175px;
+	margin-top: -130px;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 30%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.sun
+{
+	background: radial-gradient(ellipse at center, rgba(255,213,46,0.8) 0%, rgba(247,218,30,0.8) 44%, orange 100%);
+  padding:30px;
+	z-index: -1;
+	width: 20px;
+	height: 20px;
+	float: right;
+  border-radius: 200px;
+	box-shadow: -1px 1px 82px 5px rgba(250,200,12,0.81);
+  margin-right: 10%;
+	margin-top: 150px;
+  position: absolute;
+  top:0; bottom:0; right:0;
+}
